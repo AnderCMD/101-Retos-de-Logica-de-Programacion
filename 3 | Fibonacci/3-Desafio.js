@@ -12,13 +12,13 @@ function fibonacci(number) {
     let a = 0
     let b = 1
 
-    console.log(0)
+    console.log(a)
 
-    for (let i = 0; i <= number; i++) {
+    for (let i = 1; i < number; i++) {
         let c = a + b
         a = b
         b = c
-        console.log(b)
+        console.log(a)
     }
 }
 
