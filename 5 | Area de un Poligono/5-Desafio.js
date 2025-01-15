@@ -16,7 +16,7 @@ function perimeterArea(base, height, polygon) {
             break
         
         case "square":
-            area = base * 4
+            area = base ** 2
             console.log('Area of a square: ' + area);
             break
         
