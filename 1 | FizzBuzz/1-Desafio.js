@@ -7,6 +7,17 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "FizzBuzz".
  */
 
+// ? Solución
+
+/*  
+    ? Explicación
+    Para verificar que un numero sea múltiplo de otro se utiliza el operador "%"
+    y se debe de verificar que el residuo sea igual a cero (0)
+
+    Ejemplo: i % 3 === 0
+    i debe de ser múltiplo de 3 y el residuo debe de ser igual a cero (0)
+*/
+
 for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log('FizzBuzz')
