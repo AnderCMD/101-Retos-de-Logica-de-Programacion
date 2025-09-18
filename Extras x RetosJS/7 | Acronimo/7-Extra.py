@@ -11,3 +11,5 @@ def generateAcronym(phrase):
     print(''.join(acronym))
 
 generateAcronym('Prueba contingente de salud')
+generateAcronym('Asociación de Naciones Unidas')
+generateAcronym('Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura')
